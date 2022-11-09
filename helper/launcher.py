@@ -13,7 +13,7 @@
 __author__ = 'JHao'
 
 import sys
-from db.dbClient import DbClient
+from DB.dbClient import DbClient
 from handler.logHandler import LogHandler
 from handler.configHandler import ConfigHandler
 
@@ -22,7 +22,7 @@ log = LogHandler('launcher')
 
 def startServer():
     __beforeStart()
-    from api.proxyApi import runFlask
+    from Api.proxyApi import runFlask
     runFlask()
 
 

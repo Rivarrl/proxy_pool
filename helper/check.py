@@ -14,10 +14,10 @@
 """
 __author__ = 'JHao'
 
-from util.six import Empty
+from Util.six import Empty
 from threading import Thread
 from datetime import datetime
-from util.webRequest import WebRequest
+from Util.webRequest import WebRequest
 from handler.logHandler import LogHandler
 from helper.validator import ProxyValidator
 from handler.proxyHandler import ProxyHandler

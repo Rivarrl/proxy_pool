@@ -12,7 +12,7 @@
 """
 __author__ = 'JHao'
 
-from db.dbClient import DbClient
+from DB.dbClient import DbClient
 
 
 def testDbClient():

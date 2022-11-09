@@ -14,7 +14,7 @@ __author__ = 'JHao'
 
 
 def testRedisClient():
-    from db.dbClient import DbClient
+    from DB.dbClient import DbClient
     from helper.proxy import Proxy
 
     uri = "redis://:pwd@127.0.0.1:6379"

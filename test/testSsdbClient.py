@@ -14,7 +14,7 @@ __author__ = 'JHao'
 
 
 def testSsdbClient():
-    from db.dbClient import DbClient
+    from DB.dbClient import DbClient
     from helper.proxy import Proxy
 
     uri = "ssdb://@127.0.0.1:8888"
