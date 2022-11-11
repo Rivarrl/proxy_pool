@@ -16,7 +16,7 @@ import re
 import json
 from time import sleep
 
-from Util.webRequest import WebRequest
+from util.webRequest import WebRequest
 
 
 class ProxyFetcher(object):

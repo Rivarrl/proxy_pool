@@ -17,8 +17,8 @@ __author__ = 'JHao'
 import os
 import sys
 
-from Util.six import urlparse, withMetaclass
-from Util.singleton import Singleton
+from util.six import urlparse, withMetaclass
+from util.singleton import Singleton
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 

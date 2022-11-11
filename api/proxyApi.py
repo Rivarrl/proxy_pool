@@ -20,7 +20,7 @@ import platform
 from werkzeug.wrappers import Response
 from flask import Flask, jsonify, request
 
-from Util.six import iteritems
+from util.six import iteritems
 from helper.proxy import Proxy
 from handler.proxyHandler import ProxyHandler
 from handler.configHandler import ConfigHandler
