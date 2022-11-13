@@ -72,9 +72,10 @@ class WebRequest(object):
         headers = self.header
         if header and isinstance(header, dict):
             headers.update(header)
+        # local_proxies = {'http':'127.0.0.1:7890', 'https':'127.0.0.1:7890'}
         while True:
             try:
-                self.response = requests.get(url, headers=headers, timeout=timeout, *args, **kwargs)
+                self.response = requests.get(url, verify=False, headers=headers, timeout=timeout, *args, **kwargs)
                 return self
             except Exception as e:
                 self.log.error("requests: %s error: %s" % (url, str(e)))
